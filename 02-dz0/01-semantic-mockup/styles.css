@@ -1,0 +1,38 @@
+h1 {
+    font-size: 300%;
+    text-align: center;
+    color: black;
+    margin:0px;
+    padding:5px;
+}
+header {
+    background: teal;
+}
+nav {
+    background:lightseagreen;
+    text-align: center;
+    word-spacing: 20px;
+    padding: 20px;
+}
+.link {
+    font-size: 150%;
+    color: black;
+}
+main {
+    background: black;
+    padding: 10px;
+}
+article {
+    background:yellowgreen;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin: 10px;
+}
+footer {
+    background:lightslategrey;
+    text-align: center;
+    color: black;
+    font-size: 250%;
+}
