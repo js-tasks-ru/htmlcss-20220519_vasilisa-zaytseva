@@ -1,0 +1,46 @@
+.accordion {
+    font-family: 'Inter', sans-serif;
+}
+.accordion__item {
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 24px 48px 24px 32px;
+}
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+.accordion__title {
+    color: var(--black);
+}
+.accordion__content {
+    margin-top:16px;
+    margin-bottom:0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.accordion__item .accordion__title::-webkit-details-marker {
+    display: none
+}
+
+.accordion__item > .accordion__title {
+    list-style: none;
+}
+
+.accordion__item .accordion__title:after {
+    content: url("../../assets/images/vector_down.png");
+    position: absolute;
+    right: 32px;
+}
+
+.accordion__item[open] .accordion__title:after {
+    content: url("../../assets/images/vector.png");
+    position:absolute;
+    right: 32px;
+}
