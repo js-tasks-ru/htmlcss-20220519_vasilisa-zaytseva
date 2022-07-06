@@ -1,5 +1,4 @@
 .preview {
-    /*height: 1036px;*/
     padding: 68px 0px;
     background: #F9FAFC;
 }
@@ -11,6 +10,5 @@
 }
 
 .preview__card {
-    width: calc(100%/3 - 30px);
-    /*flex-basis:350px;*/
+    width: calc(100% / 3 - 30 * 2 / 3 );
 }
